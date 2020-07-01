@@ -14,6 +14,7 @@
     <h2>Sign Up Form</h2>
     <form action="/welcome" method="POST">
         @csrf 
+        <label for="first_name"></label>
         <p>First Name:</p>
         <input type="text" name="first_name" id="first_name">
         <p>Last Name:</p>
@@ -41,7 +42,6 @@
         <label for="other">Other</label>
         <p>Bio:</p>
         <textarea name="bio" id="" cols="30" rows="10"></textarea><br>
-
         <input type="submit" value="Sign Up" name="submit" id="submit">
     </form>
 </body>

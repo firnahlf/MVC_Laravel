@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <h1>Selamat Datang!</h1>
+    <h1>Selamat Datang {{ ucfirst($first_name) .' ' . ucfirst ($last_name)}} ! </h1>
     <h2>Terima Kasih telah bergabung di Sanberbook. Social media kita bersama!</h2>
 </body>
 
